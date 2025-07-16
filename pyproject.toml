@@ -1,0 +1,14 @@
+[project]
+name = "webhook-repo"
+version = "0.1.0"
+description = "This repository is to check the GitHub webhook for push, pull_request and merge and Display in the UI and refresh every 15 seconds to display the latest data from MongoDB"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "flask>=3.1.1",
+    "flask-cors>=6.0.1",
+    "pymongo>=4.13.2",
+    "python-dotenv>=1.1.1",
+    "pytz>=2025.2",
+]
